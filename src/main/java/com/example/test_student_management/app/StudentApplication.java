@@ -1,6 +1,6 @@
-package com.example.test_gui.app;
+package com.example.test_student_management.app;
 
-import com.example.test_gui.factory.AuthWindowFactory;
+import com.example.test_student_management.factory.AuthWindowFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

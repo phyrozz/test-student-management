@@ -1,8 +1,8 @@
-package com.example.test_gui.controller;
+package com.example.test_student_management.controller;
 
-import com.example.test_gui.factory.AuthWindowFactory;
-import com.example.test_gui.factory.StudentWindowFactory;
-import com.example.test_gui.repository.AuthRepository;
+import com.example.test_student_management.factory.AuthWindowFactory;
+import com.example.test_student_management.factory.StudentWindowFactory;
+import com.example.test_student_management.repository.AuthRepository;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;

@@ -1,7 +1,7 @@
-package com.example.test_gui.repository;
+package com.example.test_student_management.repository;
 
-import com.example.test_gui.util.Database;
-import com.example.test_gui.util.PasswordUtil;
+import com.example.test_student_management.util.Database;
+import com.example.test_student_management.util.PasswordUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

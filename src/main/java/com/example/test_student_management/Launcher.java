@@ -1,6 +1,6 @@
-package com.example.test_gui;
+package com.example.test_student_management;
 
-import com.example.test_gui.app.StudentApplication;
+import com.example.test_student_management.app.StudentApplication;
 import javafx.application.Application;
 
 public class Launcher {

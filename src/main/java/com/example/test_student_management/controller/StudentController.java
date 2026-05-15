@@ -1,7 +1,7 @@
-package com.example.test_gui.controller;
+package com.example.test_student_management.controller;
 
-import com.example.test_gui.model.Student;
-import com.example.test_gui.repository.StudentRepository;
+import com.example.test_student_management.model.Student;
+import com.example.test_student_management.repository.StudentRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

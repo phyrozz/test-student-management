@@ -1,4 +1,4 @@
-package com.example.test_gui.factory;
+package com.example.test_student_management.factory;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,7 +10,7 @@ public final class StudentWindowFactory {
     }
 
     public static Scene createScene() throws IOException {
-        FXMLLoader loader = new FXMLLoader(StudentWindowFactory.class.getResource("/com/example/test_gui/student-view.fxml"));
-        return new Scene(loader.load(), 1180, 720);
+        FXMLLoader loader = new FXMLLoader(StudentWindowFactory.class.getResource("/com/example/test_student_management/student-view.fxml"));
+        return new Scene(loader.load());
     }
 }

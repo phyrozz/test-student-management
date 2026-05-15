@@ -1,4 +1,4 @@
-package com.example.test_gui.model;
+package com.example.test_student_management.model;
 
 public class UserAccount {
     private int id;

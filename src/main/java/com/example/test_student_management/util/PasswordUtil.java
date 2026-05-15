@@ -1,4 +1,4 @@
-package com.example.test_gui.util;
+package com.example.test_student_management.util;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

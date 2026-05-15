@@ -1,4 +1,4 @@
-package com.example.test_gui.factory;
+package com.example.test_student_management.factory;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,12 +10,12 @@ public final class AuthWindowFactory {
     }
 
     public static Scene createLoginScene() throws IOException {
-        FXMLLoader loader = new FXMLLoader(AuthWindowFactory.class.getResource("/com/example/test_gui/login-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(AuthWindowFactory.class.getResource("/com/example/test_student_management/login-view.fxml"));
         return new Scene(loader.load(), 420, 300);
     }
 
     public static Scene createSignUpScene() throws IOException {
-        FXMLLoader loader = new FXMLLoader(AuthWindowFactory.class.getResource("/com/example/test_gui/signup-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(AuthWindowFactory.class.getResource("/com/example/test_student_management/signup-view.fxml"));
         return new Scene(loader.load(), 420, 360);
     }
 }
